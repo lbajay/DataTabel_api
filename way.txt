@@ -1,0 +1,18 @@
+first way : -
+                                 https://datatables.net/
+
+
+second way :-         
+   https://yajrabox.com/docs/laravel-datatables/master/installation
+
+
+
+ $('#sampleTable').DataTable({
+        order: [[0, "desc"]],
+        searchDelay: 500,
+        dom: 'lBfrtip',
+        buttons: [
+            'copy', 'csv', 'excel', 'pdf', 'print'
+        ]
+    });
+             
